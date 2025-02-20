@@ -33,7 +33,7 @@ public class CalculoValortotalPedidoApplication implements CommandLineRunner {
 		System.out.println("Valor total: R$ " + orderService.total(exemplo2));
 		System.out.println("---------------------------");
 		
-		Order exemplo3 = new Order(1309, 95.0, 0.0);
+		Order exemplo3 = new Order(1309, 95.90, 0.0);
 		System.out.println("Pedido Codigo " + exemplo3.getCode());
 		System.out.println("Valor total: R$ " + orderService.total(exemplo3));
 		System.out.println("---------------------------");
